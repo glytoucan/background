@@ -8,6 +8,8 @@ services:
       - 1095:80
     volumes_from:
       - logbin
+    environment:
+      - SERVER_PORT
   logbin:
     image: glycoinfo.org:5000/log:v${LOG_VERSION}
     command: echo "logbin loaded"
