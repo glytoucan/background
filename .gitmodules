@@ -1,0 +1,3 @@
+[submodule "docker-jenkins"]
+	path = docker-jenkins
+	url = http://git.glycoinfo.org:8090/git/aoki/docker-jenkins.git

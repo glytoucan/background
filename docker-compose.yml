@@ -1,0 +1,15 @@
+version: '2'
+services:
+  log:
+    image: java:8u91-jdk
+    working_dir: /data
+    command: java -jar log-${LOG_VERSION}.jar
+    ports:
+      - 1095:80
+    volumes_from:
+      - logbin
+  logbin:
+    image: glycoinfo.org:5000/log:v${LOG_VERSION}
+    command: echo "logbin loaded"
+    volumes:
+      - /data
