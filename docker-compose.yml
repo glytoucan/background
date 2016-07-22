@@ -10,6 +10,7 @@ services:
       - logbin
     environment:
       - SERVER_PORT
+    restart: always
   logbin:
     image: glycoinfo.org:5000/log:v${LOG_VERSION}
     command: echo "logbin loaded"
