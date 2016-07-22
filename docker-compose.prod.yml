@@ -1,0 +1,8 @@
+version: '2'
+services:
+  jenkinsdata:
+    image: glycoinfo.org:5000/jenkinsdata:v${GTC_VERSION}
+  jenkinsmaster:
+    image: glycoinfo.org:5000/jenkinsmaster:v${GTC_VERSION}
+  jenkinsnginx:
+    image: glycoinfo.org:5000/jenkinsnginx:v${GTC_VERSION}
