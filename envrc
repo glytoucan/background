@@ -1,3 +1,4 @@
+export PROJECT_NAME=background
 export SERVER_PORT=80
 export JENKINS_PORT=8765
 export JENKINS_PROJECT=background/docker-jenkins
