@@ -3,7 +3,7 @@ services:
   iupac:
     image: aokinobu/java-release
     volumes:
-      - iupac-batch:/iupac-batch
+      - ${PWD}/iupac-batch:/iupac-batch
     environment:
       - PROJECT_NAME=iupac-batch
       - PROJECT_FILE=iupac
