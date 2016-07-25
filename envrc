@@ -4,3 +4,4 @@ export JENKINS_PORT=8765
 export JENKINS_PROJECT=background/docker-jenkins
 export LOG_PROJECT_NAME=log
 export LOG_VERSION=0.0.1-SNAPSHOT
+export DOCKERUSER=background
